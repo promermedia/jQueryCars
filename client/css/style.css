@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainContainer {
+  background-color: rgb(236, 224, 252);
+  height: 100vh;
+  overflow: auto;
+}
+
+#welcome {
+  font-size: 50px;
+  width: 600px;
+  height: 200px;
+  padding: 50px;
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -300px;
+  background-color: rgb(192, 132, 248);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.sideNav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+a {
+  display: block;
+  font-size: 30px;
+  transition: 0.5s;
+  padding: 10px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.locate {
+  position: fixed;
+  top: 50%;
+  left: 0px;
+}
+
+.fade-init {
+  margin-left: 0px;
+  transition: margin-left 0.5s;
+}
+
+.fade-fade {
+  margin-left: 300px;
+  transition: margin-left 0.5s;
+}
+.form-group {
+  width: 500px;
+  height: 50px;
+}
+.form-control {
+  font-size: 25px;
+}
+.btn {
+  width: 100%;
+  font-size: 25px;
+}
+
+#signInDiv {
+  width: 500px;
+  margin: 100px auto 30px auto;
+  text-align: center;
+}
+h2 {
+  padding-left: 100px;
+}
+
+#wrongCred {
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(223, 0, 0);
+}
